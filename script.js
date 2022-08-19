@@ -7,6 +7,13 @@ function BMI( weight,height ){
 }
 console.log(BMI(70,1.70))
 
+console.log(BMI(80,1.70))
+
+console.log(BMI(80,1.80))
+
+console.log(BMI(50,1.70))
+
+console.log(BMI(60,1.50))
 
 
 let div = document.getElementById(`result`)
@@ -50,13 +57,3 @@ div.innerText = bmi + " == " + desc
 
 
 
-
-function BMI5(x = 0){
-console.log(x)
-
-}
-BMI5()
-BMI5(1)
-BMI5(2)
-BMI5(3)
-BMI5(4)
