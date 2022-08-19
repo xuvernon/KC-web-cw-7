@@ -1,19 +1,17 @@
 
-function BMI( weight,height ){
+function BMI( weight = 80 ,height = 1.9 ){
 
+  
     let result = weight / (height * height);
     return result
+
    
 }
 console.log(BMI(70,1.70))
 
-console.log(BMI(80,1.70))
+console.log(BMI())
 
-console.log(BMI(80,1.80))
 
-console.log(BMI(50,1.70))
-
-console.log(BMI(60,1.50))
 
 
 let div = document.getElementById(`result`)
